@@ -18,7 +18,7 @@ jobs:
       postgres:
         image: postgres
         env:
-          DATABASE_PASSWORD: 13012004
+          POSTGRES_PASSWORD: 13012004
           POSTGRES_DB: fastapi_test
         ports:
           - 5432:5432
